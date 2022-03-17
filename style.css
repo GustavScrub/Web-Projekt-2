@@ -55,6 +55,37 @@ a:visited {
   margin: 5%;
 }
 
+.rank5 {
+  display: flex;
+  justify-content: end;
+  margin: 2rem 2rem 0 0;
+}
+.rank4 {
+  display: flex;
+  justify-content: end;
+  margin: 2rem 2rem 0 0;
+}
+.rank3 {
+  display: flex;
+  justify-content: end;
+  margin: 2rem 2rem 0 0;
+}
+.rank2 {
+  display: flex;
+  justify-content: end;
+  margin: 2rem 2rem 0 0;
+}
+.rank1 {
+  display: flex;
+  justify-content: end;
+  margin: 2rem 2rem 0 0;
+}
+
 .hidden {
   display: none;
 }
+
+.contact p {
+  text-align: center;
+}
+
