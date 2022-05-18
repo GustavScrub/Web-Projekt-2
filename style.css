@@ -20,27 +20,26 @@ footer {
 
 h2 {
   font-size: 40px;
-}
-
-.season img {
-  width: 25%;
-  height: 100%;
   margin: 10px;
 }
 
-.secret h1 {
-  font-size: 3px;
+.season img {
+  width: 20%;
+  height: 100%;
+  margin: 10px;
+  border-style: solid;
 }
 
 .colossal img {
   width: 30%;
   height: 30%;
+  border-style: solid;
+  border-color: black;
 }
 
 .startSite a,
 a:hover,
-a:visited,
-a::before {
+a:visited {
   color: black;
   text-decoration: none;
   font-family: Arimo;
@@ -60,26 +59,31 @@ a::before {
   display: flex;
   justify-content: end;
   margin: 2rem 2rem 0 0;
+  color: #fad129;
 }
 .rank4 {
   display: flex;
   justify-content: end;
   margin: 2rem 2rem 0 0;
+  color: #c4c4c4;
 }
 .rank3 {
   display: flex;
   justify-content: end;
   margin: 2rem 2rem 0 0;
+  color: #bb814f;
 }
 .rank2 {
   display: flex;
   justify-content: end;
   margin: 2rem 2rem 0 0;
+  color: #844204;
 }
 .rank1 {
   display: flex;
   justify-content: end;
   margin: 2rem 2rem 0 0;
+  color: #bd322b;
 }
 
 .hidden {
@@ -92,8 +96,27 @@ a::before {
 
 .boxseasontext {
   height: 23%;
-  width: 29.8%;
+  width: 30%;
   background-color: #d17e3c;
   border-style: solid;
   border-color: black;
 }
+
+.titles {
+  height: 20%;
+  width: 18%;
+  background-color: #d17e3c;
+  border-style: solid;
+  border-color: black;
+}
+
+.titles h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+ .boxeven {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+} 
