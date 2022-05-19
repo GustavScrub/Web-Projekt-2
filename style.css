@@ -94,7 +94,7 @@ a:visited {
   text-align: center;
 }
 
-.boxseasontext {
+.boxseason1text {
   height: 23%;
   width: 30%;
   background-color: #d17e3c;
@@ -120,3 +120,46 @@ a:visited {
   justify-content: space-evenly;
   padding: 1%;
 } 
+
+.Armored {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Armored img {
+  width: 35%;
+  margin: 1%;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.gradeboxS2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+  padding: 1%;
+  margin: 2%;
+}
+
+.Armored h1 {
+  font-size: 40px;
+  width: 30%;
+  background-color: #359429;
+  border-style: solid;
+  margin: 1%;
+  text-align: center;
+}
+
+.Armored h2{
+  font-size: 25px;
+  width: 30%;
+  background-color: #359429;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+.boxseason2text {
+  display: flex;
+  flex-direction: column;
+}
