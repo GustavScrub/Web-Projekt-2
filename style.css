@@ -163,3 +163,46 @@ a:visited {
   display: flex;
   flex-direction: column;
 }
+
+.Rod img {
+  width: 30%;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.Rod {
+  background-color: #8cc3eb;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Rod h1 {
+  text-align: center;
+  font-size: 25px;
+  width: 30%;
+  padding: 3%;
+}
+
+.layRoll {
+  background-color: #8cc3eb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.layRoll img {
+  width: 40%;
+  padding: 1%;
+}
+
+.layRoll h2 {
+  font-size: 22px;
+  text-align: center;
+  width: 15%;
+}
+
+.gradeboxS3p1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #395b92;
+}
